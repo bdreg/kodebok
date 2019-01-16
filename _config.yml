@@ -1,5 +1,6 @@
 # Config settings
 title: BDR kodebok
+description: Liste over alle variablene og koder i BDR
 baseurl: "/kodebok"
 
 # Search settings
