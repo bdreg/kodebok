@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 # Søker BDR variabler
