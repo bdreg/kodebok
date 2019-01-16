@@ -213,8 +213,9 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-size: $very-small-font-size;
+    color: $grey-color;
+    font-style: oblique;
 }
 
 .post-link {
