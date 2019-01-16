@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Om BDR kode
+title: Om kodeboken
 permalink: /om/
 ---
 
