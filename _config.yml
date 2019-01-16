@@ -18,3 +18,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Searchable optimization
+plugins:
+  - jekyll-seo-tag
