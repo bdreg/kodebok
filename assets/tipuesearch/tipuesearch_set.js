@@ -12,7 +12,11 @@ Stop words
 Stop words list from http://www.ranks.nl/stopwords
 */
 
-var tipuesearch_stop_words = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", "our", "ours", "ourselves", "out", "over", "own", "same", "shan't", "she", "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves"];
+// var tipuesearch_stop_words = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", "our", "ours", "ourselves", "out", "over", "own", "same", "shan't", "she", "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves"];
+
+var tipuesearch_stop_words = ["jeg", "er", "om", "after", "som", "vi", "vår", "skal", "være", "vil", "du", "dere", "kan", "kunne", "var",
+                              "ville", "veldig", "før", "begge", "men", "til", "fra", "når", "med", "hvor", "ned", "hver", "igjen", "oss",
+                              "av", "på", "eller", "under", "i", "hun", "han", "henne", "ham", "hvem", "over"]
 
 
 // Word replace
@@ -54,21 +58,38 @@ var tipuesearch_related = {'searches': [
 
 // Internal strings
 
-var tipuesearch_string_1 = 'No title';
-var tipuesearch_string_2 = 'Showing results for';
-var tipuesearch_string_3 = 'Search instead for';
-var tipuesearch_string_4 = '1 result';
-var tipuesearch_string_5 = 'results';
-var tipuesearch_string_6 = 'Back';
-var tipuesearch_string_7 = 'More';
-var tipuesearch_string_8 = 'Nothing found.';
-var tipuesearch_string_9 = 'Common words are largely ignored.';
-var tipuesearch_string_10 = 'Search too short';
-var tipuesearch_string_11 = 'Should be one character or more.';
-var tipuesearch_string_12 = 'Should be';
-var tipuesearch_string_13 = 'characters or more.';
-var tipuesearch_string_14 = 'seconds';
-var tipuesearch_string_15 = 'Searches related to';
+// var tipuesearch_string_1 = 'No title';
+// var tipuesearch_string_2 = 'Showing results for';
+// var tipuesearch_string_3 = 'Search instead for';
+// var tipuesearch_string_4 = '1 result';
+// var tipuesearch_string_5 = 'results';
+// var tipuesearch_string_6 = 'Back';
+// var tipuesearch_string_7 = 'More';
+// var tipuesearch_string_8 = 'Nothing found.';
+// var tipuesearch_string_9 = 'Common words are largely ignored.';
+// var tipuesearch_string_10 = 'Search too short';
+// var tipuesearch_string_11 = 'Should be one character or more.';
+// var tipuesearch_string_12 = 'Should be';
+// var tipuesearch_string_13 = 'characters or more.';
+// var tipuesearch_string_14 = 'seconds';
+// var tipuesearch_string_15 = 'Searches related to';
+
+
+var tipuesearch_string_1 = 'Ingen tittle';
+var tipuesearch_string_2 = 'Viser resultat for';
+var tipuesearch_string_3 = 'Søk istedenfor';
+var tipuesearch_string_4 = '1 resultat';
+var tipuesearch_string_5 = 'resultater';
+var tipuesearch_string_6 = 'Tilbake';
+var tipuesearch_string_7 = 'Mer';
+var tipuesearch_string_8 = 'Ingen funnet.';
+var tipuesearch_string_9 = 'Vanlig ord er stortsett ignorert.';
+var tipuesearch_string_10 = 'Søk er for kort';
+var tipuesearch_string_11 = 'Skulle være 1 bokstav eller mer.';
+var tipuesearch_string_12 = 'Skulle være';
+var tipuesearch_string_13 = 'bokstaver eller mer.';
+var tipuesearch_string_14 = 'sekunder';
+var tipuesearch_string_15 = 'Søk er relatert til';
 
 
 // Internals
