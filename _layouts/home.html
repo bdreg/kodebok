@@ -1,36 +1,62 @@
 ---
 layout: default
 ---
+<!--
+     <div class="home">
+     {%- if page.title -%}
+     <h2 class="page-heading">{{ page.title }}</h2>
+     {%- endif -%}
+
+     {{ content }}
+
+     {%- if site.posts.size > 0 -%}
+     <h3 class="post-list-heading">{{ page.list_title | default: "Variablenavn:" }}</h3>
+     <ul class="post-list">
+     {%- for post in site.posts -%}
+     <li>
+     {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
+     <span class="post-meta">{{ post.date | date: date_format }}</span>
+     <h5>
+     <li>
+     <a class="post-link" href="{{ post.url | relative_url }}">
+     {{ post.title | escape }}
+     </a>
+     </li>
+     </h5>
+     {%- if site.show_excerpts -%}
+     {{ post.excerpt }}
+     {%- endif -%}
+     </li>
+     {%- endfor -%}
+     </ul>
+
+     <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
+     {%- endif -%}
+
+     </div>
+-->
 
 <div class="home">
-  {%- if page.title -%}
-    <h2 class="page-heading">{{ page.title }}</h2>
-  {%- endif -%}
+    {%- if page.title -%}
+    <h2 class=""page-heading>{{ page.title}}</h2>
+    {%- endif -%}
 
-  {{ content }}
+    {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+    {%- if site.posts.size > 0 -%}
     <h3 class="post-list-heading">{{ page.list_title | default: "Variablenavn:" }}</h3>
     <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h5>
-            <li>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-            </li>
-        </h5>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
+        {%- for post in site.posts -%}
+        <li>
+            {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h5>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                 </a>
+            </h5>
+             </li>
+        {%- endfor -%}
     </ul>
-
-    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
-  {%- endif -%}
 
 </div>
