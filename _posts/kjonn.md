@@ -1,0 +1,18 @@
+---
+layout: post
+title: "kjonn"
+date: 2019-01-14
+categories: Pasientskjema
+---
+
+Pasientens kjønn
+
+**Variabelnavn:** `kjonn`
+**Variabelnavn i eReg:** `kjonn`
+
+### Kode og verdi
+
+| Kode  | Verdi |
+| :---: | :---  |
+| 1     | Gutt  |
+| 2     | Jente |
