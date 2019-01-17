@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "lokalsykehus md"
+title: "lokalsykehus"
 date: 2019-01-14
 categories: Pasientskjema
 ---
 
 Gjeldende sykehusnavn og HER-koder per *17.01.2019*. HER-koder er hentet fra [Adresseregisteret][adreg].
-
-MD Fil
 
 **Variabelnavn:** `lokalsykehus`
 

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "kjonn md"
+title: "kjonn"
 date: 2019-01-14
 categories: Pasientskjema
 ---
 
-Pasientens kjønn. MD fil
+Pasientens kjønn
 
 **Variabelnavn:** `kjonn`
 **Variabelnavn i eReg:** `kjonn`
