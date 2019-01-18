@@ -216,7 +216,7 @@
 
 .post-list {
   margin-left: 0;
-  list-style: none;
+  list-style: disc;
 
   > li {
     margin-bottom: $spacing-unit;
@@ -224,9 +224,10 @@
 }
 
 .post-meta {
-  font-size: $very-small-font-size;
+    /* font-size: $very-small-font-size; */
     color: $grey-color;
     font-style: oblique;
+    @include relative-font-size(0.6)
 }
 
 .post-link {

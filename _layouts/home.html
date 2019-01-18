@@ -17,16 +17,15 @@ layout: default
             {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
 
             <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <!-- <div class="post-meta">{{ post.categories | escape }}</div> -->
-            <h5>
-                <li>
-                    <a class="post-link" href="{{ post.url | relative_url }}">
-                        {{ post.title | escape }}
-                        <var class="post-meta">{{ post.categories | escape }}</var>
-                    </a>
+        <div class="post-meta">{{ post.categories | escape }}</div>
+        <h5>
+            <li>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </li>
+        </h5>
 
-                </li>
-            </h5>
 
             {%- endfor -%}
 
