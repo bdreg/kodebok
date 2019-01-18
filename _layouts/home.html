@@ -13,17 +13,21 @@ layout: default
     <h3 class="post-list-heading">{{ page.list_title | default: "Variablenavn:" }}</h3>
     <ul class="post-list">
         {%- for post in site.posts -%}
-        <li>
+
             {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
 
             <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-            <span class="post-meta">{{ post.categories | escape}}</span>
+            <div class="post-meta">{{ post.categories | escape }}</div>
             <h5>
+                <ul style="list-style-type:square">
+                <li>
                 <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
                 </a>
+                </li>
+                </ul>
             </h5>
-        </li>
+
         {%- endfor -%}
 
     </ul>
