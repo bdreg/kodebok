@@ -2,7 +2,7 @@
 layout: post
 title: "lokalsykehus"
 date: 2019-01-14
-categories: Pasientskjema Førstegangsreg. Årskontroll
+categories: Pasient Førstegang Årskontroll
 ---
 
 Gjeldende sykehusnavn og HER-koder per *17.01.2019*. HER-koder er hentet fra [Adresseregisteret][adreg].
