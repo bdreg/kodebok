@@ -11,12 +11,6 @@ tags: [sykehus, hospital]
 
 Gjeldende sykehusnavn som er registreres i [eReg][ereg] og deres koder. HER-koder per *17.01.2019* benyttes ved kobling til NorskHelsenett. HER-koder er hentet fra [Adresseregisteret][adreg].
 
-**Variabelnavn ved uttrekk:** `lokalsykehus`
-
-**Forkortet feltnavn i eReg:** `lokalsykehus`
-
-**Datatype:** Nominal
-
 ## Datavariabel verdi
 
 Liste over koder og tilhørighet til sykehusnavn for variabel `lokalsykehus`.

@@ -11,13 +11,7 @@ tags: [skjema]
 
 Hvilket skjema som er valgt.
 
-**Variabelnavn ved uttrekk:** `skjemakode`
-
-**Forkortet feltnavn i eReg:** `inn_Type`
-
-**Variabeltype:** Nominal
-
-### Variabelkodeverdi
+### Datavariabel verdi
 
 | kode  | Skjema  |
 | :---  | :---  |

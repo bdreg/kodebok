@@ -12,10 +12,7 @@ tags: [kjønn, sex, gender]
 
 Pasientens kjønn
 
-**Variabelnavn:** `kjonn`
-**Variabelnavn i eReg:** `kjonn`
-
-### Kode og verdi
+### Datavariabel verdi
 
 | Kode  | Verdi |
 | :---: | :---  |

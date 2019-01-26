@@ -1,6 +1,7 @@
 ---
 layout: page
 title: kontakt
+order: 2
 ---
 
 

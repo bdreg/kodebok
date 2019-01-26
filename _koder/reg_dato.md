@@ -11,12 +11,6 @@ tags: [dato, date]
 
 Dato for førstegangsregistrering eller årskontroll.
 
-**Variabelnavn ved uttrekk:** `reg_dato`
-
-**Feltnavn i eReg:** `inn_dato`
-
-**Datatype:** Datofelt
-
 ### Datavariabel verdi
 
 dd.mm.åååå
