@@ -1,20 +1,23 @@
 ---
 layout: post
 title: "lokalsykehus"
-date: 2017-01-01 
 
 ereg_name: lokalsykehus
 var_type: Nominal
 
 categories: Pasientskjema
 tags: [sykehus, hospital]
-
-permalink: lokalsykehus
 ---
 
 Gjeldende sykehusnavn som er registreres i [eReg][ereg] og deres koder. HER-koder per *17.01.2019* benyttes ved kobling til NorskHelsenett. HER-koder er hentet fra [Adresseregisteret][adreg].
 
-## Variabelkode verdi
+**Variabelnavn ved uttrekk:** `lokalsykehus`
+
+**Forkortet feltnavn i eReg:** `lokalsykehus`
+
+**Datatype:** Nominal
+
+## Datavariabel verdi
 
 Liste over koder og tilhørighet til sykehusnavn for variabel `lokalsykehus`.
 

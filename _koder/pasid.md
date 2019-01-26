@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "pasid"
-date: 2017-01-01 
 
 ereg_name: PasientID
 var_type: Numerisk
@@ -9,7 +8,6 @@ var_type: Numerisk
 categories: Pasientskjema
 tags: [id, pasientid]
 
-permalink: pasid
 ---
 
 Pasientens unike ID ved registrering. Brukes hovedsakelig for å avidentifisere data som skal benyttes til forskning og eventuelt skal kobles tilbake mot original filen.

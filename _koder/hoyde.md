@@ -1,15 +1,12 @@
 ---
 layout: post
 title: "hoyde"
-date: 2017-01-01 
 
 ereg_name: inn_Lengde
 var_type: Numerisk
 
 categories: [Førstegang, Årskontroll]
 tags: [høyde, meter]
-
-permalink: hoyde
 ---
 
 Høyde av pasienten beregnet i centimeter ved førstegangsregistrering og årskontroll.

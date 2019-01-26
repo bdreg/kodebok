@@ -1,15 +1,12 @@
 ---
 layout: post
 title: "reg_dato"
-date: 2017-01-01 
 
 ereg_name: inn_dato
 var_type: Datofelt
 
 categories: Førstegang Årskontroll
 tags: [dato, date]
-
-permalink: regdato
 ---
 
 Dato for førstegangsregistrering eller årskontroll.

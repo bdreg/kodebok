@@ -1,20 +1,23 @@
 ---
 layout: post
 title: "skjemakode"
-date: 2017-01-01 
 
 ereg_name: inn_Type
 var_type: Nominal
 
 categories: Førstegang Årskontrol
 tags: [skjema]
-
-permalink: skjema
 ---
 
 Hvilket skjema som er valgt.
 
-### Variabelkode verdi
+**Variabelnavn ved uttrekk:** `skjemakode`
+
+**Forkortet feltnavn i eReg:** `inn_Type`
+
+**Variabeltype:** Nominal
+
+### Variabelkodeverdi
 
 | kode  | Skjema  |
 | :---  | :---  |

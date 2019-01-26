@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "kjonn"
-date: 2019-01-14
 
 ereg_name: kjonn
 var_type: Nominal
@@ -9,12 +8,14 @@ var_type: Nominal
 categories: Pasientskjema
 tags: [kjønn, sex, gender]
 
-permalink: kjonn
 ---
 
 Pasientens kjønn
 
-### Variabelkode verdi
+**Variabelnavn:** `kjonn`
+**Variabelnavn i eReg:** `kjonn`
+
+### Kode og verdi
 
 | Kode  | Verdi |
 | :---: | :---  |

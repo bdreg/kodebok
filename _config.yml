@@ -4,10 +4,17 @@ author: BDR
 description: Liste over alle variablene og variableverdi i BDR database
 baseurl: "/kodebok"
 
+# Collections settings
+collections:
+  koder:
+    output: true
+    permalink: /:name/
+
 # Search settings
 tipue_search:
   include:
     pages: true
+    collections: [koder]
   exclude:
     files: [index.md, search.html, about.md]
 
