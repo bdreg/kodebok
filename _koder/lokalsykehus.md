@@ -9,7 +9,7 @@ categories: Pasientskjema
 tags: [sykehus, hospital]
 ---
 
-Gjeldende sykehusnavn som er registreres i [eReg][ereg] og deres koder. HER-koder per *17.01.2019* benyttes ved kobling til NorskHelsenett. HER-koder er hentet fra [Adresseregisteret][adreg**.
+Gjeldende sykehusnavn som er registreres i [eReg][ereg] og deres koder. HER-koder per *17.01.2019* benyttes ved kobling til NorskHelsenett. HER-koder er hentet fra [Adresseregisteret][adreg].
 
 **Datavariabel verdi:**
 
@@ -53,3 +53,7 @@ Gjeldende sykehusnavn som er registreres i [eReg][ereg] og deres koder. HER-kode
 
 [adreg]:  https://register.nhn.no/ar
 [ereg]: https://oslo-universitetssykehus.no/fag-og-forskning/forskning/servicemiljo-for-kvalitetsregistre-hso/ereg
+
+
+
+
