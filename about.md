@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Om BDR
-permalink: /om/
+permalink: "/om"
 order: 0
 ---
 

@@ -3,7 +3,7 @@ title: BDR kodebok
 author: BDR
 description: "Denne siden inneholder alle variabler og variableverdi i den
 Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes (BDR) databasen"
-baseurl: "/kodebok/"
+baseurl: "/kodebok"
 
 # Collections settings
 collections:
