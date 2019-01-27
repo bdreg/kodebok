@@ -5,7 +5,7 @@ title: "vekt"
 ereg_name: inn_Vekt
 var_type: Numerisk
 
-categoris: [Førstegang, Årskontroll]
+categoris: Førstegang Årskontroll
 tags: [kg, vekt, weight]
 ---
 

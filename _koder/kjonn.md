@@ -12,7 +12,7 @@ tags: [kjønn, sex, gender]
 
 Pasientens kjønn
 
-### Datavariabel verdi
+**Datavariabel verdi**
 
 | Kode  | Verdi |
 | :---: | :---  |

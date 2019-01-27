@@ -11,7 +11,7 @@ tags: [skjema]
 
 Hvilket skjema som er valgt.
 
-### Datavariabel verdi
+**Datavariabel verdi**
 
 | kode  | Skjema  |
 | :---  | :---  |

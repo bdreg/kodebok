@@ -11,6 +11,6 @@ tags: [dato, date]
 
 Dato for førstegangsregistrering eller årskontroll.
 
-### Datavariabel verdi
+**Datavariabel verdi**
 
 dd.mm.åååå
