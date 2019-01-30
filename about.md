@@ -11,7 +11,7 @@ kvalitetsutvikling for å sikre likeverdig behandling iht. internasjonale standa
 overvåke forekomst av kroniske og akutte komplikasjoner og fremme forskning knyttet
 til diabetes.
 
-Denne siden inneholder alle variabler i BDR. Beskrivelse og variabelverdi inkludert
+Denne siden inneholder alle variabler i BDR. Beskrivelse og variabel verdi inkludert
 dataformat er også gitt. For variabler som har blitt revidert og endret, tidspunktet
-for når det nye variableverdi blir implementert er også gitt. I tillegg blir de gamle
+for når den nye variable verdi blir implementert er også gitt. I tillegg blir de gamle
 variabelverdi beskrives.
