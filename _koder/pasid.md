@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "pasid"
+dato: ""
 
 ereg_name: PasientID
 var_type: Numerisk

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "kjonn"
+dato: ""
 
 ereg_name: kjonn
 var_type: Nominal

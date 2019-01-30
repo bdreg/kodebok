@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "lokalsykehus"
+dato: ""
 
 ereg_name: lokalsykehus
 var_type: Nominal

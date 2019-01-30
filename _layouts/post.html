@@ -20,9 +20,15 @@ layout: default
   <p><strong>Variablenavn ved uttrekk:</strong> <code>{{ page.title}}</code></p>
   <p><strong>Variablenavn i eReg:</strong> <code>{{ page.ereg_name}}</code></p>
   <p><strong>Data type:</strong> {{ page.var_type }}</p>
+
+  {% if page.dato == "" %}
+  <p><b>Sist revidert: </b>{{ site.dato }}</p>
+      {% else %}
+  <p><b>Sist revidert: </b>{{ page.dato }}</p>
+  {% endif %}
  <hr>
 <br>
- <p><strong>Variable definisjon:</strong></p>
+ <p><strong>Variabeldefinisjon:</strong></p>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}

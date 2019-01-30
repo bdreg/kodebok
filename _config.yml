@@ -1,9 +1,13 @@
 # Config settings
 title: BDR kodebok
 author: BDR
+
 description: "Denne siden inneholder alle variabler og variableverdi i den
 Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes (BDR) databasen"
 baseurl: "/kodebok"
+
+# Revidert dato generelt
+dato: "30-01-2019"
 
 # Collections settings
 collections:

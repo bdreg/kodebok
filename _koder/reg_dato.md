@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "reg_dato"
+dato: ""
 
 ereg_name: inn_dato
 var_type: Datofelt

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "vekt"
+dato: ""
 
 ereg_name: inn_Vekt
 var_type: Numerisk

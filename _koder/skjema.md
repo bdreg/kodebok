@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "skjemakode"
+dato: ""
 
 ereg_name: inn_Type
 var_type: Nominal

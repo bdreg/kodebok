@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "hoyde"
+dato: ""
 
 ereg_name: inn_Lengde
 var_type: Numerisk
