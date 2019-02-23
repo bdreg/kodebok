@@ -9,6 +9,10 @@ baseurl: "/kodebok"
 # Revidert dato generelt
 dato: "30-01-2019"
 
+# Hjem
+hjemtitle: Hjem
+hjemurl: https://bdreg.github.io/bdrkodebok
+
 # Collections settings
 collections:
   koder:
