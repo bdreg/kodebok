@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Om BDR
+title: Info
 permalink: "/om"
 order: 0
 ---
